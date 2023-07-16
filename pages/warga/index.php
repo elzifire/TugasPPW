@@ -6,6 +6,7 @@
 <?php include('data-index.php') ?>
 <?php include('../dasbor/data-index.php') ?>
 
+<div class="export" id="divToExport">
 <table class="table table-striped table-condensed table-hover" id="datatable">
   <thead>
     <tr>
@@ -67,7 +68,7 @@
     <?php endforeach ?>
   </tbody>
 </table>
-
+</div>
 <br><br>
 
 <div class="well">

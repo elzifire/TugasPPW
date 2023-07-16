@@ -66,6 +66,7 @@ tinymce.init({
 	]
  });
 </script>
+
   </head>
 
   <body>

@@ -19,7 +19,7 @@
         </button>
       </div>
       <div class="col-md-2">
-        <button onclick="exportToPDF()" class="btn btn-outline btn-primary">
+        <button onclick="generatePDF()" class="btn btn-outline btn-primary">
           <i class="glyphicon glyphicon-print"></i> Cetak
         </button>
       </div>
@@ -27,5 +27,23 @@
   </div>
 </div>
 <br>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.10/pdfmake.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.10/vfs_fonts.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+<script > function generatePDF() {
+        
+        // Choose the element id which you want to export.
+        var element = document.getElementById('divToExport');
+        var tanggalSekarang = new Date();
+        element.style.width = '700px';
+        element.style.height = '900px';
+        var opt = {
+            margin:       0.5,
+            filename:     'myfile.pdf',
+            image:        { type: 'jpeg', quality: 1 },
+            html2canvas:  { scale: 1 },
+            jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait',precision: '12' }
+          };
+        
+        // choose the element and pass it to html2pdf() function and call the save() on it to save as pdf.
+        html2pdf().set(opt).from(element).save();
+      } </script>
