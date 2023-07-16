@@ -7,7 +7,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="../dasbor">Aplikasi Penduduk Kelurahan Kademangan - ADMINISTRATOR</a>
+      <a class="navbar-brand" href="../dasbor">Aplikasi Penduduk Desa Cilebut timur ADMINISTRATOR</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">

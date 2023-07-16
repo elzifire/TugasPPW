@@ -1,8 +1,7 @@
-# kitsupro-SID-PHP
- SID "Sistem Informasi Desa" using PHP Native and MySQL database
+Tugas UAS PPW
 
-Code Project from kitsuDev
+#software yang di butuhkan
+xampp
+text editor (sublime text/vs code)
 
-demo: http://www.sideka.epizy.com
-
-MySQL file:
+CARA INSTALL 

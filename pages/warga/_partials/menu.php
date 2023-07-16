@@ -19,11 +19,13 @@
         </button>
       </div>
       <div class="col-md-2">
-        <a href="cetak-index.php" target="_blank" class="btn btn-outline btn-primary">
+        <button onclick="exportToPDF()" class="btn btn-outline btn-primary">
           <i class="glyphicon glyphicon-print"></i> Cetak
-        </a>
+        </button>
       </div>
     </div>
   </div>
 </div>
 <br>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.10/pdfmake.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.10/vfs_fonts.js"></script>

@@ -37,7 +37,7 @@
           <div class="col-xs-6 col-sm-6 col-md-4">
             <div class="blok text-center">
               <div class="hexagon-a">
-                <a class="hlinktop" href="https://goo.gl/maps/W9QWGPTEWneDXMtn6" target="_blank">
+                <a class="hlinktop" href="https://goo.gl/maps/7KD5iMn1XWrPRE6B9" target="_blank">
                   <div class="hexa-a">
                     <div class="hcontainer-a">
                       <div class="vertical-align-a">

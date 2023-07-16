@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Website Kelurahan Kademangan</title>
+    <title>Desa Cilebut Timur</title>
     <meta name="keywords" content="" />
 	<meta name="description" content="" />
     <!--
@@ -25,7 +25,7 @@
     <script>
     function myMap() {
         var latlng = {
-            center: new google.maps.LatLng(-6.335051,106.669901);
+            center: new google.maps.LatLng(-6.5299541, 106.7810267);
             zoom:9,
         };
         var map = new google.maps.Map(document.getElementById("map"), latlng);
@@ -46,16 +46,15 @@
           <div class="row">
             <div class="hidden-xs hidden-sm col-md-6">
               <div class="mailme">
-                <a href="mailto:email@gmail.com"><i class="fa fa-envelope"></i>email@gmail.com</a>
+                <a href="mailto: registciltim@gmail.com"><i class="fa fa-envelope"></i> registciltim@gmail.com</a>
               </div>
             </div>
             <div class="col-sm-12 col-md-6">
               <div class="socials">
                 <ul>
-<!--              <li><a href="#"><i class="fa fa-twitter soc"></i></a></li> -->
+             <li><a href="#"><i class="fa fa-twitter soc"></i></a></li>
                   <li><a href="#"><i class="fa fa-facebook soc"></i></a></li>
-<!--              <li><a href="#"><i class="fa fa-rss soc"></i></a></li> -->
-<!--              <li><a href="#"><i class="fa fa-dribbble soc"></i></a></li> -->
+             <li><a href="#"><i class="fa fa-whatsapp""></i></a></li>
                   <li><a href="#"><i class="fa fa-instagram soc"></i></a></li>
                 </ul>
               </div>
@@ -72,29 +71,29 @@
     	</div>
 
     </header>
-
     <div class="mWrapper">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4 col-md-4">
-            <div class="logo">
-              <a href="#"><img src="images/logo.png" alt="LOGO"></a>
-            </div>
-          </div>
-          <div class="col-sm-8 col-md-8">
-            <nav class="mainMenu">
-              <ul class="nav">
-                <li><a href="#templatemo_top">Home</a></li>
-                <li><a href="#templatemo_services">Layanan</a></li>
-                <li><a href="#templatemo_about">Tentang</a></li>
-                <li><a href="#templatemo_contact">Kontak</a></li>
-                <li><a href="pages/login/index.php">Login</a></li>
-              </ul>
-            </nav>
-          </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4 col-md-4 text-center"> <!-- Tambahkan class "text-center" untuk mengatur tata letak menjadi di tengah -->
+        <div class="logo">
+          <a href="#">Desa Cilebut Timur</a>
         </div>
       </div>
+      <div class="col-sm-8 col-md-8">
+        <nav class="mainMenu">
+          <ul class="nav">
+            <li><a href="#templatemo_top">Home</a></li>
+            <li><a href="#templatemo_services">Layanan</a></li>
+            <li><a href="#templatemo_about">Tentang</a></li>
+            <li><a href="#templatemo_contact">Kontak</a></li>
+            <li><a href="pages/login/index.php">Login</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
+  </div>
+</div>
+
 
 <?php
 include("layanan.php");
