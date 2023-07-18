@@ -9,7 +9,7 @@ if (!isset($_SESSION['warga'])) {
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Website Kelurahan Kademangan</title>
+    <title>Website Desa Cilebut Timur</title>
     <meta name="keywords" content="" />
 	<meta name="description" content="" />
     <!--
@@ -82,11 +82,12 @@ if (!isset($_SESSION['warga'])) {
     <div class="mWrapper">
       <div class="container">
         <div class="row">
-          <div class="col-sm-4 col-md-4">
-            <div class="logo">
-              <a href="#"><img src="images/logo.png" alt="LOGO"></a>
-                <a href="#"> | WEBSITE WARGA KELURAHAN KADEMANGAN</a>
-            </div>
+        <div class="col-sm-4 col-md-4 text-center">
+      <img src="../../images/logo.jpeg" alt="Gambar Desa" class="logo" style="width:30px";>  
+      <div class="logo">
+          <a href="#">Desa Cilebut Timur</a>
+        </div>
+      </div>
           </div>
           <div class="col-sm-8 col-md-8">
             <nav class="mainMenu">

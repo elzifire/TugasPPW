@@ -106,8 +106,8 @@ tinymce.init({
         <div class="row">
           <div class="col-sm-4 col-md-4">
             <div class="logo">
-              <a href="#"><img src="images/logo.png" alt="LOGO"></a>
-                <a href="#"> | WEBSITE WARGA KELURAHAN KADEMANGAN</a>
+              <a href="#"><img src="../../images/logo.jpg" alt="LOGO"></a>
+                <a href="#"> | WEBSITE Desa Cilebut Timur</a>
             </div>
           </div>
           <div class="col-sm-8 col-md-8">

@@ -19,4 +19,4 @@ jangan lupa jalankan atau nyalakan xampp
 Agung susilo
 Muhammad Ali Ghozi
 Mawardi
-Amelia
+Amelia Dwi Ananda
