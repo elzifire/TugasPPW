@@ -7,6 +7,7 @@
 <button type="button" class="btn btn-info btn-sm" onclick="javascript:history.back()">
   <i class="fa fa-arrow-circle-left"></i> Kembali
 </button>
+<div class="export" id="divToExport">
 
 <h3>A. Data KK</h3>
 <?php
@@ -130,5 +131,5 @@ if($data_kk[]=!NULL){
     <td><?php echo $data_warga[0]['updated_at'] ?></td>
   </tr>
 </table>
-
+</div>
 <?php include('../_partials/bottom.php') ?>

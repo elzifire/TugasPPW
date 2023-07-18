@@ -13,7 +13,7 @@
                     <font color="grey"><h4>Selamat datang di Aplikasi Penduduk Kelurahan Kademangan</h4></font>
                 </div>
                 </div>
-                <!-- /.col-lg-12 -->
+                <!-- /.col-lg-12 -->  
             <!-- /.row -->
         </div>
         </div>

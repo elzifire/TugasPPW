@@ -74,11 +74,12 @@
     <div class="mWrapper">
   <div class="container">
     <div class="row">
-      <div class="col-sm-4 col-md-4 text-center"> <!-- Tambahkan class "text-center" untuk mengatur tata letak menjadi di tengah -->
-        <div class="logo">
+    <div class="col-sm-4 col-md-4 text-center">
+      <img src="images/logo.jpg" alt="Gambar Desa" class="logo" style="width:30px";>  
+      <div class="logo">
           <a href="#">Desa Cilebut Timur</a>
         </div>
-      </div>
+      </div>
       <div class="col-sm-8 col-md-8">
         <nav class="mainMenu">
           <ul class="nav">
