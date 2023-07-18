@@ -14,3 +14,9 @@ CARA INSTALL
 
 #perhatian 
 jangan lupa jalankan atau nyalakan xampp
+
+#anggota Kelompok 1 
+Agung susilo
+Muhammad Ali Ghozi
+Mawardi
+Amelia

@@ -13,7 +13,7 @@
           <ul>
             <li>
               <div class="teamBox">
-                <div class="imgWrp"><img class="img-responsive" alt="Angel" src="images/team/Kepala.jpg"></div>
+                <div class="imgWrp"><img class="img-responsive" alt="Angel" src="images/Kades.jpg"></div>
                 <div class="tInfo">
                   <h4 class="text-center">Agung Susilo Bambang Hadiyono</h4>
                   <h6 class="text-center">Kepala Kelurahan</h6>
